@@ -10,7 +10,7 @@ function convertToRoman(num) {
     };
 
   //your code here
-	  let result = '';
+	  let result;
   
   for (key in map) {
     result += key.repeat(Math.floor(num / map[key]));
